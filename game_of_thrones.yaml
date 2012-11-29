@@ -1,32 +1,34 @@
 people:
-  - Ned Stark:
+  - Eddard Stark:
     -
-      dob: 1926
+      dob: 1965
       sex: male
       email: ned.stark@winterfell.com
-      children: [sansa, arya, jon, rob, bran, rickon]
-      title: [Lord, "Hand of the King"]
+      titles: [Lord, "Hand of the King"]
+      nickname: Ned
+      # children: [sansa, arya, jon, rob, bran, rickon]
 
 houses:
   - Stark:
     -
-      banner: Direwolf
+      sigil: Grey direwolf running across a snow white field
       colors: [grey, white]
-      seat: winterfell
+      seat: Winterfell
       motto: Winter is coming.
 
   - Lannister:
     -
-      banner: Lion
+      sigil: Golden lion upon a crimson field
       colors: [crimson, gold]
       seat: Castle Black
-      motto: A Lannister always pays his debts.
+      motto: Hear me roar!
+
   - Tully:
     -
-      banner: Fish
-      colors: [blue]
+      sigil: Leaping trout, silver, on a field of rippling blue and red
+      colors: [silver, blue, red]
       seat: Riverrun
-      motto: Always float
+      motto: Family, Duty, Honor.
   
 
 orders:
