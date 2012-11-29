@@ -1,10 +1,11 @@
 #got_data?#
-#WARNINING#
-This is a spoiler *ALERT*. By looking at the data you will see data that may give hints to certain plot twists in the story. Consider yourself warned!
+###SPOLER ALERT!!!###
+By looking at the data you will see information that may give hints to certain plot twists in the story up through the fifth book (A Dance with Dragons).
 ##Description##
-**got_data** (or **GoT_data**, see what I did there? *+1 for wit*) is a compilation of data based on the series of novels A Song of Fire and Ice - better known by the HBO series, **Game of Thrones**.
+**got_data** (or **GoT_data**, see what I did there? *+1 for wit*) is a compilation of data based on the series of novels A Song of Ice and Fire - better known by the HBO series, **Game of Thrones**.
 
-Since the data is based on fictional characters and areas, it is much easier to create test data that has actual meaning to the person testing or developing.
+Since the data is based on fictional characters and areas with backstories and relationships,
+it is much easier to create meaningful test data for your application.
 
 For example, if you were creating a team based pvp game, you could generate the data like:
 
@@ -12,7 +13,14 @@ For example, if you were creating a team based pvp game, you could generate the 
 - ***Eddard*** is on team ***Winterfell***
 - ***Lannister*** vs ***Wintefell*** played at stadium ***King's Landing***
 
-As a result, it makes more sense than Team A played Team B and Player1 fought Player2.
+As a result, data is understand since you can use the story to guide use cases. it makes more sense than:
+* **TeamRed** *played* **TeamBlue** or
+* **Player1** *killed* **Player2**
+
+It can also help find bugs if you were to find something such as:
+- **Tyrion** *killed* **Tywin**
+
+as that would not happen since they are both on ***Team Lannister***
 
 ##Schema##
 =======
@@ -33,9 +41,10 @@ As a result, it makes more sense than Team A played Team B and Player1 fought Pl
     * colors[]: the colors of the order (e.g. Black for the Night's Watch)
     * motto: the motto of the order
 
-##Use##
+##License##
 ###Permissions###
-Fork it, expand it, issue pull requests, etc. The data is meant to be a starting point for generating data for your app in an easy manner. As a service for the commnunity as fans of both the novels, the show, and FOSS.
+Completely open permissions. Fork it, expand it, etc. If you have updates to the data, issue a pull request and it will be merged in after it's been reviewed.
+The data is meant to be a starting point for generating data for your app in an easy manner - as a service for the commnunity as fans of both the novels, the show, and FOSS.
 
 ###Plans###
 Create configurable data seed scripts for importing into various platforms (e.g. Rails using Devise)
