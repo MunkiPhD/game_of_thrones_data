@@ -1,10 +1,11 @@
 people:
   - Ned Stark:
     -
-      born: 1926
+      dob: 1926
       sex: male
       email: ned.stark@winterfell.com
       children: [sansa, arya, jon, rob, bran, rickon]
+      title: [Lord, "Hand of the King"]
 
 houses:
   - Stark:
@@ -38,7 +39,11 @@ orders:
       colors: [black]
       motto: At all cost.
 
-areas:
-  - Winterfell
-  - "King's Landing"
-  - Iron Islands
+#areas:
+#  - Winterfell
+#  - "King's Landing"
+#  - Iron Islands
+#  castles
+#    - Red Keep
+#    - Whispers
+#    - Harrenhal
