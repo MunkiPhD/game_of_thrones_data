@@ -1,0 +1,44 @@
+people:
+  - Ned Stark:
+    -
+      born: 1926
+      sex: male
+      email: ned.stark@winterfell.com
+      children: [sansa, arya, jon, rob, bran, rickon]
+
+houses:
+  - Stark:
+    -
+      banner: Direwolf
+      colors: [grey, white]
+      seat: winterfell
+      motto: Winter is coming.
+
+  - Lannister:
+    -
+      banner: Lion
+      colors: [crimson, gold]
+      seat: Castle Black
+      motto: A Lannister always pays his debts.
+  - Tully:
+    -
+      banner: Fish
+      colors: [blue]
+      seat: Riverrun
+      motto: Always float
+  
+
+orders:
+  - Kingsguard:
+    -
+      colors: [white]
+      motto: For the king!
+  - "The Night's Watch":
+    -
+      colors: [black]
+      motto: At all cost.
+
+areas:
+  - Winterfell
+  - "King's Landing"
+  - Iron Islands
