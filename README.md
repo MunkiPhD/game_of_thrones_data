@@ -26,7 +26,7 @@ as that would not happen since they are both on ***Team Lannister***
 =======
 * people
   * dob: Date of Birth (normalized to 20 and 21st century time)
-  * sex: male or female
+  * sex: male or female, represented as "m" or "f"
   * email: a fictional email address that might belong to this character
   * titles[]: important titles that character has held [lord, squire, king, hand of the king, etc]
   * nickname: Person's nickname (e.g. "Kingslayer")

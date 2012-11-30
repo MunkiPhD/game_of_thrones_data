@@ -1,13 +1,64 @@
 people:
+# House Stark
   - Eddard Stark:
     -
-      dob: 1965
-      sex: male
+      dob: 1965-10-11
+      sex: m
       email: ned.stark@winterfell.com
-      titles: [Lord, "Hand of the King"]
+      titles: ["Lord of Winterfell", "Hand of the King"]
       nickname: Ned
-      # children: [sansa, arya, jon, rob, bran, rickon]
-
+  - Catelyn Stark:
+    -
+      dob: 1970-10-12
+      sex: f
+      email: catelyn.stark@winterfell.com
+      titles: [Lady]
+      nickname: Cat
+#   Stark children
+  - Jon Snow:
+    -
+      dob: 1995-10-13
+      sex: m
+      email: lord.snow@castleblack.org
+      titles: [Lord]
+      nickname: ~
+  - Robb Stark:
+    -
+      dob: 1997-10-15
+      sex: m
+      email: robb.stark@northmen.com
+      titles:["Lord of Winterfell", "King in the North", "King of the Trident"]
+      nickname: ~
+  - Sansa Stark:
+    -
+      dob: 1999-10-16
+      sex: f
+      email:
+      titles: [Princess]
+      nickname: ~
+  - Brandon Stark:
+    -
+      dob: 2000-10-17
+      sex: m
+      email: crippled.warg@winterfell.com
+      titles: [Prince]
+      nickname: Bran
+  - Arya Stark:
+    -
+      dob: 2002-10-18
+      sex: f
+      email: ninja.stark@winterfell.com
+      titles: [Princess]
+      nickname: ~
+  - Rickon Stark:
+    -
+      dob: 2004-10-19
+      sex: m
+      email: youngest.stark@winterfell.com
+      titles: [Prince]
+      nickname: ~
+# House Lannister
+# Tyrion, Jaime, Cersei, Tywin, Jeoffrey, Mrycela, Tommen
 houses:
   - Stark:
     -
@@ -20,7 +71,7 @@ houses:
     -
       sigil: Golden lion upon a crimson field
       colors: [crimson, gold]
-      seat: Castle Black
+      seat: Casterly Rock
       motto: Hear me roar!
 
   - Tully:
