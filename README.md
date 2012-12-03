@@ -1,8 +1,8 @@
-#got_data?#
+#game_of_thrones_data?#
 ###SPOLER ALERT!!!###
 By looking at the data you will see information that may give hints to certain plot twists in the story up through the fifth book (A Dance with Dragons).
 ##Description##
-**got_data** (or **GoT_data**, see what I did there? *+1 for wit*) is a compilation of data based on the series of novels A Song of Ice and Fire - better known by the HBO series, **Game of Thrones**.
+**game_of_thrones_data** is a compilation of data based on the series of novels A Song of Ice and Fire - better known by the HBO series, **Game of Thrones**.
 
 Since the data is based on fictional characters and areas with backstories and relationships,
 it is much easier to create meaningful test data for your application.
@@ -30,16 +30,20 @@ as that would not happen since they are both on ***Team Lannister***
   * email: a fictional email address that might belong to this character
   * titles[]: important titles that character has held [lord, squire, king, hand of the king, etc]
   * nickname: Person's nickname (e.g. "Kingslayer")
+  * aid: arbitrary ID assigned to this person that can be used for reference
+  * house_id: the ID of the house this person belongs to (might need to distinguish the difference between  ***from*** and ***currently at*** e.g. Catelyn Stark is from Tully, but is at Stark)
 * houses
     * house name
       * sigil: A description of the house's sigil (e.g. Direwolf for house Stark)
       * colors[]: an array of the colors of the house (e.g. crimson and gold for house Lannister)
       * seat: The seat held by the house (e.g. the king sits the iron throne, house Tully sits Riverrun)
       * motto: The motto/saying of the house, official or unnofficial (e.g. Lannister's "Hear me roar!")
+      * aid: arbitrary ID assigned to the house that can be used for reference
 * orders
   * order name (e.g. Kingsguard, Night's Watch)
     * colors[]: the colors of the order (e.g. Black for the Night's Watch)
     * motto: the motto of the order
+    * aid: arbitrary ID assigned to the order that can be used for reference
 
 ##License##
 ###Permissions###
