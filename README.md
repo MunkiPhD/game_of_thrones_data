@@ -44,6 +44,12 @@ as that would not happen since they are both on ***Team Lannister***
     * colors[]: the colors of the order (e.g. Black for the Night's Watch)
     * motto: the motto of the order
     * aid: arbitrary ID assigned to the order that can be used for reference
+* castles
+  * name: the name of the castle
+  * ruined: whether the castle is a ruined castle
+
+###Loading the data###
+The data was created using [yaml_db](https://github.com/ludicast/yaml_db). You can read the documentation for loading the data into your database, especially if you have a Rails app.
 
 ##License##
 ###Permissions###
